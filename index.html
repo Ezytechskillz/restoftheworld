@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries of the world</title>
+    <link rel="stylesheet" href="./index.css">
+   
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Where in the world</h1>
+            
+        </header>
+
+        <div class="hero">
+            <div class="nav">
+                <section class="rytNav">
+                    <nav class="s-bar">
+                        <label for="s-bar">Country:</label>
+                        <input type="text" placeholder= "Search for a Country" id="searchInput">
+                    </nav>
+                    <nav class="filter">
+                        <label for="countrySelect">Filter by Region:</label>
+                        <select id="countrySelect" name="countries">
+                            <option value="all">All</option>
+                            <option value="Americas">Americas</option>
+                            <option value="Africa">Africa</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Oceania">Oceania</option>
+                            <option value="Antarctic">Antarctic</option>
+                        </select>
+                    </nav>
+                </section>
+
+               <section class="mode">
+                <main>
+                    <p><svg width="32" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.0517 11.6618C18.8944 13.364 18.2555 14.9862 17.2099 16.3386C16.1643 17.691 14.7552 18.7176 13.1474 19.2984C11.5396 19.8791 9.79964 19.99 8.13116 19.6179C6.46268 19.2459 4.93465 18.4064 3.72588 17.1976C2.51712 15.9888 1.6776 14.4608 1.30557 12.7923C0.933535 11.1238 1.04438 9.38391 1.62512 7.77612C2.20586 6.16834 3.23249 4.75919 4.58487 3.71358C5.93725 2.66797 7.55946 2.02913 9.26166 1.87183C8.26507 3.22009 7.78551 4.88128 7.91019 6.55324C8.03487 8.22521 8.75552 9.79688 9.94106 10.9824C11.1266 12.168 12.6983 12.8886 14.3702 13.0133C16.0422 13.138 17.7034 12.6584 19.0517 11.6618Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        Switch mode</p>
+                </main>
+               </section>
+            </div>
+
+            <main class="country-card" id="countryCard">
+
+            </main>
+
+        </div>
+
+    
+
+    </div>
+    <script src="./test.js"></script>
+</body>
+</html>
